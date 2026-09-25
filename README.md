@@ -1,11 +1,32 @@
-# NutriLife 2.0
-Atividade 02 de Programação para Dispositivos Móveis.
+# Calculadora de IMC e RCQ
 
-Projeto Android nativo em Java, com minSdk 30 (Android 11), duas Activities, validação com AlertDialog, cálculo de IMC e RCQ, Intent explícita para resultados e Intent ACTION_SEND para compartilhamento.
+Aplicativo Android desenvolvido para realizar cálculos de **IMC (Índice de Massa Corporal)** e **RCQ (Relação Cintura-Quadril)** de forma simples e rápida.
 
-## Abrir
-1. Abra a pasta `NutriLife2` no Android Studio.
-2. Aguarde a sincronização do Gradle.
-3. Execute em um emulador/dispositivo Android 11 (API 30) ou superior.
+## Funcionalidades
 
-Observação: o projeto usa somente APIs nativas do Android, sem bibliotecas externas de interface.
+* Cálculo do IMC a partir do peso e altura;
+* Exibição do resultado e classificação do IMC;
+* Cálculo da RCQ a partir das medidas da cintura e do quadril;
+* Exibição do resultado da RCQ;
+* Interface simples e intuitiva.
+
+## Tecnologias utilizadas
+
+* Java
+* Android Studio
+* XML
+* Compatível com Android 11 ou superior
+
+## Cálculos
+
+**IMC:**
+
+IMC = peso / altura²
+
+**RCQ:**
+
+RCQ = circunferência da cintura / circunferência do quadril
+
+## Objetivo
+
+Projeto desenvolvido como atividade acadêmica da disciplina de **Programação para Dispositivos Móveis**.
