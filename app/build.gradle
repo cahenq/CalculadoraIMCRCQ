@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'br.unir.nutrilife'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'br.unir.nutrilife'
+        minSdk 30
+        targetSdk 30
+        versionCode 1
+        versionName '1.0'
+    }
+}
